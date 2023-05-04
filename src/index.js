@@ -1,9 +1,9 @@
-const express = require('express')
+const express = require('express');
 
-const app = express()
+const app = express();
 
-app.get("/", (request, response) => {
-  response.send("Hello world!")
-})
+app.get('/', (request, response) => {
+  response.send('Hello world!');
+});
 
-app.listen(3000, () => console.log("Sever started"))
+app.listen(3000, () => console.log('Sever started'));
